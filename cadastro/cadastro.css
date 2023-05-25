@@ -109,14 +109,11 @@ label {
 
 @media (max-width: 505px) {
     main {
-        border: none;
         margin: 0%;
+        border: none;
         width: 100%;
-        height: 100%;
-        padding-top: 25px;
-        padding-bottom: 70px;
         border-radius: 0;
-        height: 100%;
+        padding-top: 25px;
     }
     main:hover {
         box-shadow: none;
