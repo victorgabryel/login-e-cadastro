@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('/imagens/background2.webp');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #00000034;
+    width: 400px;
+    height: 320px;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: solid white;
+    margin: auto;
+    margin-top: 50px;
+    transition: 0.1s;
+}
+main:hover {
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.emailinput {
+    margin-bottom: 25px;
+}
+.senhainput {
+    margin-bottom: 25px;
+}
+label {
+    color: white;
+    font-weight: bold;
+}
+.input {
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    border-left: none;
+    outline: none;
+    color: white;
+}
+.conteudo_secundario {
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo_secundario>a {
+    color: white;
+}
+.conteudo_secundario>a:hover {
+    text-decoration: underline;
+}
+
+.entrar {
+    display: block;
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-top: 25px;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.1s;
+}
+.entrar>p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.entrar:hover {
+    box-shadow: 0px 0px 5px 1px white;
+}

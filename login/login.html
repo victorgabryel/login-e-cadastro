@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./estilo_geral.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h2>Que bom te ver novamente</h2>
+
+        <div class="conteudo">
+            <div class="emailinput">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="input">
+            </div>
+            <div class="senhainput">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" class="input">
+            </div>
+        </div>
+
+        <div class="conteudo_secundario">
+            <a href="/recuperar/recuperar.html">Esqueci a senha</a>
+            <a href="/cadastro/cadastro.html">Cadastre-se</a>
+        </div>
+        <a href="#" onclick="entrar()" class="entrar"><p>Entrar</p></a>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>

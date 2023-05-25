@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('/imagens/background2.webp');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #00000034;
+    margin: auto;
+    width: 400px;
+    height: 619px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: solid white;
+    transition: 0.1s;
+}
+main:hover {
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+input {
+    color: white;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    border-left: none;
+    outline: none;
+    width: 220px;
+}
+input::placeholder {
+    color: white;
+}
+label {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.aviso {
+    margin-bottom: 10px;
+}
+.radio {
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+
+.entrar {
+    display: block;
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-top: 25px;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.1s;
+}
+.entrar>p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.entrar:hover {
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.login {
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 29px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+.login>a {
+    color: white;
+}
+.login>a:hover {
+    text-decoration: underline;
+}

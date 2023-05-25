@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h2>Se cadastre abaixo</h2>
+        <div class="emailcontainer flex">
+            <label for="email"><strong>Insira seu email:</strong></label>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+        </div>
+
+        <div class="senhacontainer flex">
+            <label for="senha"><strong>Digite sua senha:</strong></label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+
+        <div class="senhaconfirme flex">
+            <label for="confirmepass"><strong>Confirme sua senha:</strong></label>
+            <input type="password" name="confirmepass" id="confirmepass" required>
+        </div>
+
+        <div class="idade flex">
+            <label for="idade"><strong>Digite sua idade:</strong></label>
+            <input type="date" name="idade" id="idade" required>
+        </div>
+
+        <div class="numcontainer flex">
+            <label for="numero"><strong>Digite um número de telefone:</strong></label>
+            <input type="tel" name="numero" id="numero" placeholder="(xx) xxxxx-xxxx" required>
+        </div>
+
+        <div class="sexocontainer flex">
+            <label class="aviso"><strong>Selecione seu gênero:</strong></label>
+            <label for="m">Masculino</label>
+            <input type="radio" name="sexo" id="m" class="radio" checked>
+            <label for="f">Feminino</label>
+            <input type="radio" name="sexo" id="f" class="radio">
+            <label for="o">Outro</label>
+            <input type="radio" name="sexo" id="o" class="radio">
+        </div>
+        <a href="#" class="entrar"><p>Avançar</p></a>
+        <div class="login"><a href="/login/login.html">Já possuo um login</a></div>
+    </main>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
